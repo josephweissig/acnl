@@ -1,0 +1,22 @@
+
+body {
+  background-color: #999999;
+  color: #FEFEFE;
+}
+
+img {
+  height: 12px;
+  width: 32px;
+}
+
+.symbol {
+  width: 12px;
+}
+
+.gen2, .gen2only, .gen1 {
+  display: none;
+}
+
+div {
+  margin-top: 20px;
+}
