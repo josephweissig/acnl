@@ -1,22 +1,100 @@
 
 body {
-  background-color: #999999;
-  color: #FEFEFE;
+  background-color: #444444;
+  color: #EAEAEA;
+  margin: 0;
+  /* padding: 20px; */
+  width: 320px;
+  font-family: 'M PLUS 1p', sans-serif;
+}
+
+#non3DSwarning {
+  display: none;
+  width: 100%;
+}
+
+div.rarity p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+article div {
+  height: auto;
+  overflow-y: auto;
+  width: 280px;
+}
+
+article {
+  width: 100%;
+  display: block;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0px;
+}
+
+p.en {
+  font-size: 24px;
+  float: left;
+  width: 100%;
+}
+
+p.jp {
+  font-weight: 300;
+  font-size: 16px;
+  float: right;
+  color: #B0B0B0;
+}
+
+p.price {
+  font-weight: 300;
+  font-size: 16px;
+  float: left;
+  color: #B0B0B0;
+}
+
+p.time {
+  float: left;
+}
+
+p.label {
+  float: right;
+  /* display: inline; */
 }
 
 img {
-  height: 12px;
-  width: 32px;
-}
-
-.symbol {
-  width: 12px;
-}
-
-.gen2, .gen2only, .gen1 {
   display: none;
 }
 
-div {
-  margin-top: 20px;
+nav {
+  display: flex;
+  height: 32px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+nav div {
+  width: 33%;
+  float: left;
+  text-align: center;
+  line-height: 32px;
+  font-weight: 700;
+}
+
+#bugs {
+  background-color: green;
+}
+
+#fish {
+  background-color: blue;
+  width: 34%;
+}
+
+#dive {
+  background-color: darkblue;
 }

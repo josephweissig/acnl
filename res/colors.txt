@@ -1,0 +1,13 @@
+image dimensions should be 280x20
+
+town colors (very rare -> very common):
+#efb6aa
+#eae7b8
+#c2c3ed
+#6261a4
+
+island colors (very rare -> very common):
+#f98648
+#fbb549
+#6cfd5f
+#80ffbc
